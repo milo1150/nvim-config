@@ -82,14 +82,14 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
   -- Telescope
- use "nvim-telescope/telescope.nvim"
+  use "nvim-telescope/telescope.nvim"
 
   -- Treesitter
- use {
-   "nvim-treesitter/nvim-treesitter",
-   run = ":TSUpdate",
- }
- use "JoosepAlviste/nvim-ts-context-commentstring"
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
+-- use "JoosepAlviste/nvim-ts-context-commentstring"
 
   -- Git
   use "lewis6991/gitsigns.nvim"
